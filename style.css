@@ -8,7 +8,7 @@
   }
 
 /* ＝＝＝＝＝＝＝＝＝＝＝＝＝＝
-PC用スタイル
+↓↓↓↓↓↓　PC用スタイル　↓↓↓↓↓↓
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝ */
 /* 横幅設定 */
   body {
@@ -17,13 +17,13 @@ PC用スタイル
     margin: 0 auto 0 auto;
   }
 
-  /* ヘッダー */
+  /* ↓↓↓↓↓↓　ヘッダー　↓↓↓↓↓↓ */
   header {
     display: flex;
     justify-content: space-between;
   }
 
-  /* ナビゲーション */
+  /* ↓↓↓↓↓↓　ナビゲーション　↓↓↓↓↓↓ */
 #nav-pc {
   text-align: right;
   font-size: 14px;
@@ -88,4 +88,180 @@ PC用スタイル
   top: o;
   right: 0;
   z-index: 10;
+}
+
+/* ↓↓↓↓↓↓　MISSON　↓↓↓↓↓↓ */
+
+h2 {
+  margin-top: 40px;
+}
+
+h2::after {
+  content: url("images/line.png");
+  margin-left: 10px;
+}
+
+h3 {
+  font-size: 27px;
+}
+
+#mission {
+  margin: 80px auto;
+  width: 100%;
+}
+
+#mission-flex {
+  width: 100%;
+  display: flex;
+}
+
+#mission-flex > div {
+  width: 50%;
+  margin: 20px;
+}
+
+#mission-photo {
+  width: 100%;
+}
+
+s2dgs {
+  margin: 50px;
+  width: 100%;
+}
+
+/* ↓↓↓↓↓↓　PRODUCT　↓↓↓↓↓↓ */
+
+#product {
+  background-color: #fafafa;
+  width: 100%;
+  margin: 80px 0;
+  padding: 10px 40px 0 40px;
+}
+
+#product > div {
+  margin-top: 40px;
+  display: flex;
+}
+
+/* 左右共通 */
+#product-left {
+width: 50%;
+margin-right: 20px;
+}
+
+/* 右側をずらす */
+#product-right {
+  width: 50%;
+  margin-left: 20px;
+  margin-top: 80px;
+}
+
+#product-left > div {
+  position: relative;
+  height: 480px;
+  margin-right: 20px;
+}
+
+#product-right > div {
+  position: relative;
+  height: 480px;
+  margin-left: 20px;
+}
+
+.product-photo {
+  width: 100%;
+}
+
+.product-explain {
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 280px;
+  margin: 0 40px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.product-explain > span {
+  color: #2710d5;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+}
+
+.product-explain > h3 {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.product-explain > p {
+  font-size: 14px;
+  margin: 0;
+}
+
+#product-more {
+  margin: 0 auto -42px auto;
+}
+
+#aboutus {
+  margin: 80px auto;
+}
+
+#aboutus > div {
+  display: flex;
+}
+
+.culture-img {
+  width: 100%;
+  align-self: flex-start;
+}
+
+.culture-img2 {
+  margin-top: 50px;
+  width: 100%;
+} 
+
+.culture-table {
+max-width: 500px;
+margin-right: 50px;
+}
+
+.culture-num {
+  font-size: 80px;
+  color: #2710d5;
+  margin-right: 20px;
+}
+
+.culture-en {
+  color: #2710d5;
+  font-weight: bold;
+  font-size: 24px;
+  display: block;
+}
+
+.culture-jp {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.culture-description{
+  margin: 0;
+}
+
+#vision {
+  margin: 80px auto;
+}
+
+#vision > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.vision-box {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 30px;
+  position: relative;
 }
