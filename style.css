@@ -265,3 +265,11 @@ h3 {
 #vision {
   margin: 80px auto 80px auto;
 }
+
+/* セクション内の外枠 */
+#vision > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
