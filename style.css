@@ -228,3 +228,9 @@ h3 {
   margin-top: 50px;
   width: 100%;
 }
+
+/* 3つの組織文化の表 */
+.culture-table {
+  max-width: 500px;
+  margin-right: 50px;
+}
