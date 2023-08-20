@@ -290,3 +290,11 @@ h3 {
   left: 0;
   z-index: 30;
 }
+
+.vision-box > span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 31;
+  margin-right: 20px;
+}
