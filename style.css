@@ -273,3 +273,11 @@ h3 {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+/* 7つの行動指針の枠 */
+.vision-box {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 30px;
+  position: relative;
+}
