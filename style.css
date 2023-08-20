@@ -217,3 +217,14 @@ h3 {
 #aboutus > div {
   display: flex;
 }
+
+/* 画像 */
+.culture-img {
+  width: 100%;
+  align-self: flex-start;
+}
+
+.culture-img2 {
+  margin-top: 50px;
+  width: 100%;
+}
