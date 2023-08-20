@@ -326,3 +326,12 @@ h3 {
 #company-table {
   width: 100%;
 }
+
+.tableheader {
+  text-align: left;
+  padding: 20px;
+  border-bottom-color: #2710d5;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  width: 100px;
+}
