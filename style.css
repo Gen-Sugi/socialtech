@@ -354,3 +354,13 @@ h3 {
   border-bottom-width: 1px;
   border-bottom-style: solid;
 }
+
+.cell-first {
+  padding: 30px;
+  border-bottom-color: #ececec;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-top-color: #ececec;
+  border-top-width: 1px;
+  border-top-style: solid;
+}
