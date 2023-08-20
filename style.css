@@ -347,3 +347,10 @@ h3 {
   border-top-style: solid;
   width: 100px;
 }
+
+.cell {
+  padding: 30px;
+  border-bottom-color: #ececec;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
