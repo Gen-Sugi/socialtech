@@ -260,3 +260,8 @@ h3 {
 .culture-description {
   margin: 0;
 }
+
+/* ビジョン */
+#vision {
+  margin: 80px auto 80px auto;
+}
