@@ -375,3 +375,11 @@ h3 {
 #contact {
   margin: 80px auto 80px auto;
 }
+
+/* 外枠 */
+#contact > form > div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
