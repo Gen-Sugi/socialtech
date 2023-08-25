@@ -394,3 +394,10 @@ h3 {
 .contact-label {
   font-weight: bold;
 }
+
+/* 必須 */
+.contact-span {
+  color: #ce2222;
+  margin: 0 0 0 20px;
+  font-weight: bold;
+}
