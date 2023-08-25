@@ -383,3 +383,9 @@ h3 {
   flex-wrap: wrap;
   padding-bottom: 30px;
 }
+
+/* 左列の見出し */
+.contact-heading {
+  width: 240px;
+  align-self: center;
+}
