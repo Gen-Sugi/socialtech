@@ -437,3 +437,7 @@ details > div {
   background-color: #fafafa;
   padding: 20px;
 }
+
+details > div > span {
+  font-weight: bold;
+}
