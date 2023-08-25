@@ -370,3 +370,8 @@ h3 {
   height: 368px;
   margin-top: 40px;
 }
+
+/* お問い合わせ */
+#contact {
+  margin: 80px auto 80px auto;
+}
