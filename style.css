@@ -427,3 +427,8 @@ h3 {
   width: 400px;
   height: 200px;
 }
+
+/* 個人情報の取り扱い */
+details {
+  width: 700px;
+}
