@@ -432,3 +432,8 @@ h3 {
 details {
   width: 700px;
 }
+
+details > div {
+  background-color: #fafafa;
+  padding: 20px;
+}
