@@ -472,3 +472,17 @@ footer {
 #footer-link > a:active {
   color: #ffffff;
 }
+
+#sns-footer {
+  text-align: left;
+  width: 100%;
+}
+
+#sns-footer > a {
+  margin-right: 30px;
+}
+
+#copyright {
+  color: #ffffff;
+  float: right;
+}
