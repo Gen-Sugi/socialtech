@@ -441,3 +441,13 @@ details > div {
 details > div > span {
   font-weight: bold;
 }
+
+footer {
+  background-color: #0d0d0d;
+  text-align: center;
+  padding: 80px 80px 30px 80px;
+}
+
+#footer-logo {
+  margin-bottom: 30px;
+}
