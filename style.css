@@ -508,4 +508,17 @@ p {
     float: right;
     padding: 0;
   }
+
+  /* スマホ用ナビゲーションの表示切替 */
+  /* 初期状態、レイアウトと非表示設定 */
+  #nav-sp {
+    background-color: #2710d5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    z-index: 100;
+  }
 }
