@@ -425,7 +425,7 @@ p {
     border-right: 0;
     border-bottom-width: 1px;
     border-bottom-color: #707070;
-    border-bottom-style: solid;
+    /* border-bottom-style: solid; */
     background-color: #fafafa;
     width: 400px;
     height: 200px;
